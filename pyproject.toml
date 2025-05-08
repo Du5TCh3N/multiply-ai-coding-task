@@ -7,6 +7,7 @@ authors = ["Michael Curtis <mike@multiply.ai>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 google-genai = "^1.7.0"
+dotenv = "^0.9.9"
 
 [tool.poetry.scripts]
 demo = "scripts:demo"
